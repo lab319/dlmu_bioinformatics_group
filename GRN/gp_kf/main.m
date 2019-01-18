@@ -10,6 +10,7 @@
 
 clear 
 load e_cell
+iteration=20;
 n=53;
 X(:,1:3)=x(1:n,1:3);
 Y=x(1:n,4); 
@@ -43,7 +44,7 @@ disp(gpkf_result([],0));
 disp(gpkf_result(popu,1));
 
 % GP+KF loops
- for c = 2:20,
+ for c = 2:iteration
   %iterate 
   popu = gpkf_mainloop(popu,X,Y,[],opt);
   disp(gpkf_result(popu,1));
