@@ -1,4 +1,4 @@
-This folder contains the code for genetic programming (GP) and particle filter (PF), and the datasets of E_cell,yeast and HeLa.
+This folder contains the code for genetic programming (GP) and particle filter (PF), and the datasets of HeLa with a randomly selected gene.
 
 main.m : Main program
 gppf_mainloop.m : Run one evolutionary loop and generate a new population, i.e. use gp to infer the terms of the GRN model
@@ -23,5 +23,5 @@ yeast.mat : The five time-series gene-expression data are selected from yeast da
 hela.mat : The four time-series gene-expression data are selected from HeLa datasets. The first four columns are four sets of time series data (x1 to x4),and the last four columns are dx1/dt to dx4/dt. 
 	The whole HeLa datasets can be downloaded from http://genome-www.stanford.edu/Human-CellCycle/HeLa/
 
-% The genetic programming is based on the matlab package developed by Dr. J. Mad¨¢r, so we are very grateful to J. Mad¨¢r et al.
-% J. Mad¨¢r, J. Abonyi, and F. Szeifert, ¡°Genetic Programming for the Identification of Nonlinear Input-Output Models,¡± Industrial & Engineering Chemistry Research, vol. 44, no. 9, pp. 3178-3186, 2005.
+% The genetic programming is based on the matlab package developed by Dr. J. MadÂ¨Â¢r, so we are very grateful to J. MadÂ¨Â¢r et al.
+% J. MadÂ¨Â¢r, J. Abonyi, and F. Szeifert, Â¡Â°Genetic Programming for the Identification of Nonlinear Input-Output Models,Â¡Â± Industrial & Engineering Chemistry Research, vol. 44, no. 9, pp. 3178-3186, 2005.
